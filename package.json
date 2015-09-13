@@ -1,0 +1,33 @@
+{
+  "name": "hapi-ex",
+  "version": "1.0.0",
+  "description": "Hapijs example, hapi, hapijs skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/hapijs-example.git"
+  },
+  "keywords": [
+    "hapijs",
+    "hapijs",
+    "example"
+  ],
+  "author": "Doron Segal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/hapijs-example/issues"
+  },
+  "homepage": "https://github.com/doron2402/hapijs-example#readme",
+  "dependencies": {
+    "config": "^1.16.0",
+    "hapi": "^10.0.0",
+    "joi": "^6.6.1",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "lab": "^5.16.1"
+  }
+}
