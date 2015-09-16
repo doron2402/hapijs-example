@@ -23,7 +23,7 @@ module.exports = function(server){
         //     options: {}
         // },
         {
-            register: require('./middleware/versioning'),
+            register: require('hapi-versioning'),
             options: {
                 pattern: /^(v[1-9])$/
             }

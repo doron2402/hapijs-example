@@ -9,7 +9,7 @@ function getDirectories(srcpath) {
 }
 
 getDirectories(routesPath).forEach(function(dir){
-	routes = routes.concat(require('./' + dir));
+  routes = routes.concat(require('./' + dir));
 });
 
 module.exports = routes;

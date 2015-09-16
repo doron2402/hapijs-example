@@ -4,7 +4,8 @@
   "description": "Hapijs example, hapi, hapijs skeleton",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "dependencies": {
     "config": "^1.16.0",
     "hapi": "^10.0.0",
+    "hapi-versioning": "0.0.2",
     "joi": "^6.6.1",
     "lodash": "^3.10.1"
   },
