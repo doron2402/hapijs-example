@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,15 +26,17 @@
   "homepage": "https://github.com/doron2402/hapijs-example#readme",
   "dependencies": {
     "config": "^1.16.0",
-    "hapi": "^10.1.0",
+    "hapi": "^13.4.0",
     "hapi-versioning": "0.0.2",
-    "inert": "^3.0.1",
-    "joi": "^6.6.1",
+    "inert": "^4.0.0",
+    "joi": "^8.1.0",
     "lodash": "^3.10.1",
-    "lout": "^7.1.0",
-    "vision": "^3.0.0"
+    "lout": "^9.0.1",
+    "vision": "^4.1.1",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "lab": "^5.16.1"
-  }
+  },
+  "snyk": true
 }
